@@ -1,0 +1,28 @@
+* Microservice - (borrowed from Thoughtworks) 
+** Development of an application constructed as a suite of small services
+** Each running on its own process and communicating with lightweight mechanisms
+** These services are build around business capabilities and independently deployable
+
+* Microframeworks 
+** A framework that is simple, but extensible (not necessary size-wise)
+** It provides just enough resource dependencies, just in time, and is typically convention-over-configuration
+
+
+
+
+
+* Spring Boot
+** An opinionated, convention-over configuration framework with ultimate goal of quickly creating stand-alone Spring applications
+** No XML or code-generation, rather runs in conjunction with Maven/Gradle and classpath scanning
+
+* Executable JAR
+** packages all classes and dependencies in a single JAR for easy deployment
+** More sophisticated than Shade plugin that reduces classpath conflicts
+
+* Actuator
+** common non-functional features that make an application easy to manage in production (metrics, health checks, easy JMX access)
+** Useful above and beyond a web-apps for backend Java services that don't have a consistent management platform
+
+* Starters 
+** Maven dependencies that you include in your application to automatically configure particular Spring technologies (web, database, security)
+** removes the pain of sorting out beans, wiring, and other configuration
