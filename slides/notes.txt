@@ -7,10 +7,6 @@
 ** A framework that is simple, but extensible (not necessary size-wise)
 ** It provides just enough resource dependencies, just in time, and is typically convention-over-configuration
 
-
-
-
-
 * Spring Boot
 ** An opinionated, convention-over configuration framework with ultimate goal of quickly creating stand-alone Spring applications
 ** No XML or code-generation, rather runs in conjunction with Maven/Gradle and classpath scanning
@@ -26,3 +22,9 @@
 * Starters 
 ** Maven dependencies that you include in your application to automatically configure particular Spring technologies (web, database, security)
 ** removes the pain of sorting out beans, wiring, and other configuration
+
+curl -H "Content-Type: application/json" -d '{"studentId":1234,"courseName":"MATH101","grade":"B"}' http://localhost:8080
+http://localhost:8080/health
+http://localhost:8080/metrics
+
+
